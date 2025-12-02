@@ -195,3 +195,70 @@ body {
     from {opacity: 0; transform: translateX(-40px);}
     to {opacity: 1; transform: translateX(0);}
 }
+
+@media (max-width: 850px) {
+    .navigation ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation li.threeline-icon {
+        display: inline-block;
+    }
+
+    .capa div {
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+
+    .foto-perfil, .nome-perfil {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .foto-perfil img {
+        max-width: 75%;
+        margin-top: 50px;
+    }
+
+    .nome-perfil h1 {
+        font-size: 40px;
+        margin-top: 35px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nome-perfil h2 {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .main {
+        width: 85%;
+    }
+
+    .main p {
+        text-align: left;
+        line-height: 35px;
+    }
+
+    .cv-pic {
+        max-width: 75%;
+        float: none;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .caminho li {
+        font-size: 16px;
+    }
+    
+}
