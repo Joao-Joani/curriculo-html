@@ -115,7 +115,8 @@ body {
     width: 400px;
     border-radius: 400px;
     display: block;
-    float: right
+    float: right;
+    margin-top: 50px;
 }
 
 .main h1 {
@@ -259,6 +260,7 @@ body {
         display: block;
         margin: auto;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .caminho li {
