@@ -80,7 +80,7 @@ body {
     padding-bottom: 55px;
 }
 
-.main img {
+.cv-pic {
     width: 400px;
     border-radius: 400px;
     display: block;
@@ -127,3 +127,7 @@ body {
     font-size: 18px;
 }
 
+.social-img {
+    width: 50px;
+    margin-right: 10px;
+}
